@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "336212885274",
+    "project_id": "originalurisaxeli2",
+    "storage_bucket": "originalurisaxeli2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336212885274:android:0a7cf4a4a12ee26655b6a3",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336212885274-1vl573c3aff0brgd93ij5rfhkbtpm15j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "fbdd2fdf7b71a2d07ba4923a36b7ab798f93f2db"
+          }
+        },
+        {
+          "client_id": "336212885274-miae41fj5iji1pp64kci0lk6pcrguh68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGZdjWlF5H0P6TTxCQtVgKZef-q2Pl8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336212885274-miae41fj5iji1pp64kci0lk6pcrguh68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
