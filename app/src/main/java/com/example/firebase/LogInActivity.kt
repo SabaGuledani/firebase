@@ -19,12 +19,12 @@ class LogInActivity : AppCompatActivity() {
         val email = binding.email
         val password = binding.password
         val btn = binding.createbtn
-        
+
         btn.setOnClickListener { 
-            if (email.text.toString().isValidEmail() && password.text.toString() != "" 
-                && password.text.toString().length >= 6 ){
+            if (email.editText?.text.toString().isValidEmail() && password.editText?.text.toString() != ""
+                && password.editText?.text.toString().length >= 6 ){
                 FirebaseAuth.getInstance()
-                    .createUserWithEmailAndPassword(email.text.toString(),password.text.toString())
+                    .createUserWithEmailAndPassword(email.editText?.text.toString(),password.editText?.text.toString())
                     .addOnCompleteListener {task ->
                         if(task.isSuccessful){
                             Toast.makeText(this, "წარმატებით დარეგისტრირდით!", Toast.LENGTH_SHORT).show()
@@ -42,4 +42,6 @@ class LogInActivity : AppCompatActivity() {
 
     fun String.isValidEmail() =
         !TextUtils.isEmpty(this) && Patterns.EMAIL_ADDRESS.matcher(this).matches()
+
+
 }
